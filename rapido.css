@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fc;
+    color: #333;
+}
+
+.navbar {
+    background-color: #f8f9fc !important;
+    /* Box shadow removed to keep it completely flat with the background */
+}
+
+.rapido-logo {
+    background-color: #fce83a; 
+    color: #000;
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding: 5px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    letter-spacing: -0.5px;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-size: 0.95rem;
+    margin: 0 10px;
+}
+
+.active-link {
+    border-bottom: 2px solid #000;
+    padding-bottom: 2px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #3b3c40;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: #5a5b5e;
+}
+
+.custom-input {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.custom-input .input-group-text {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.custom-input input {
+    padding: 15px 15px 15px 0;
+    font-size: 1rem;
+}
+
+.btn-book {
+    background-color: #fce83a; 
+    color: #000;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+    background-color: #e5d134; 
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
